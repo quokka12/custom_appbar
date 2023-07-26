@@ -21,6 +21,7 @@ class MainScreen extends StatelessWidget {
           height: double.infinity,
           child: ElevatedButton(
             onPressed: () {
+              // 버튼을 눌렀을 때, 서브 페이지로 이동하는 기능 구현
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const SubScreen()),

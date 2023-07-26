@@ -23,6 +23,7 @@ class SubAppBar extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             IconButton(
+              //뒤로 가는 버튼 구현
               onPressed: () {
                 Navigator.pop(context);
               },
